@@ -21,7 +21,21 @@ $(document).ready(function () {
   });
 });
 
+var currentDay = $("#currentDay");
+currentDay.text(dayjs().format("MMMM DD, YYYY"));
 
+var currentTime = $("#currentTime");
+currentTime.text(dayjs().format("[Today at] h:mm A"));
+
+$('#hour-09').children('textarea').val(localStorage.getItem('hour-09'))
+$('#hour-10').children('textarea').val(localStorage.getItem('hour-10'))
+$('#hour-11').children('textarea').val(localStorage.getItem('hour-11'))
+$('#hour-12').children('textarea').val(localStorage.getItem('hour-12'))
+$('#hour-13').children('textarea').val(localStorage.getItem('hour-13'))
+$('#hour-14').children('textarea').val(localStorage.getItem('hour-14'))
+$('#hour-15').children('textarea').val(localStorage.getItem('hour-15'))
+$('#hour-16').children('textarea').val(localStorage.getItem('hour-16'))
+$('#hour-17').children('textarea').val(localStorage.getItem('hour-17'))
 // TODO: Add a listener for click events on the save button. This code should
 // use the id in the containing time-block as a key to save the user input in
 // local storage. HINT: What does `this` reference in the click listener
