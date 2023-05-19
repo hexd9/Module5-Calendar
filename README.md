@@ -1,32 +1,36 @@
 # Module-5
 
-# Daily Planner - Word Day Schedular
-Module 5- Calendar
+# Daily Planner: Work-Day Schedular
+
+Module 5
 
 ## Description
 
+This is a simple daily planner application that allows users to create and manage their daily schedule. It provides a user-friendly interface to organize tasks and events throughout the day. I created the daily planner to ensure that I can manage my time effectively.
 
-
-## Table of Contents 
+## Table of Contents
 
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-
 ## Usage
 
 -Open the planner.
+
 -The current day and time will be displayed at the top of the calendar.
+
 -Scroll down to view the time blocks for the day.
+
 -Each time block will be color-coded to represent its status: past, present, or future.
+
 -Click on a time block to enter a task for that hour.
+
 -After entering the task, click the save button to save the text in local storage.
+
 -If the page is refreshed or reopened, the saved tasks will still be displayed.
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+![Image of Daily Planner- Calendar](./assets/images/dailyplanner.png)
 
 ## Credits
 
@@ -41,7 +45,6 @@ Module 5- Calendar
 -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
 
 -https://www.w3schools.com/jquery/
-
 
 ## License
 
@@ -70,4 +73,3 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 -Time Blocks: The planner presents time blocks for standard business hours, allowing users to plan their activities for each hour of the day.
 
 -Local Storage: The application utilizes local storage to save the entered events. When the page is refreshed, the saved events persist, ensuring that users' schedule data is not lost.
-
