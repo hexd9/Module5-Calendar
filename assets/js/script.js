@@ -25,6 +25,7 @@ currentDay.text(dayjs().format("MMMM DD, YYYY"));
 var currentTime = $("#currentTime");
 currentTime.text(dayjs().format("[Today at] h:mm A"));
 
+
 // Locale storage
 $("#hour-09").children("textarea").val(localStorage.getItem("hour-09"));
 $("#hour-10").children("textarea").val(localStorage.getItem("hour-10"));
