@@ -30,6 +30,8 @@ This is a simple daily planner application that allows users to create and manag
 
 -If the page is refreshed or reopened, the saved tasks will still be displayed.
 
+https://hexd9.github.io/Module5-Calendar/
+
 ![Image of Daily Planner- Calendar](./assets/images/dailyplanner.png)
 
 ## Credits
